@@ -36,8 +36,7 @@
 			"dist/credentials/DeutschlandGPTApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/ExampleNode/ExampleNode.node.js",
-			"dist/nodes/HttpBin/HttpBin.node.js"
+			"dist/nodes/Deutschlandgpt/Deutschlandgpt.node.js"
 		]
 	},
 	"devDependencies": {

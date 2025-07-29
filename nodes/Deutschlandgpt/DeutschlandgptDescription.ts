@@ -60,6 +60,32 @@ export const deutschlandGPTOperations: INodeProperties[] = [
 					},
 				},
 			},
+			{
+				name: 'Send Chat Message with System Prompt',
+				value: 'send_chat_message_with_system_prompt',
+				description: 'Send a message to the chat with a system prompt',
+				action: 'Send chat message with system prompt',
+				routing: {
+					request: {
+						method: 'POST',
+						url: 'v1/chat/completions',
+						json: true,
+						body: {
+							model: '={{$parameter["model"]}}',
+							messages: [
+								{
+									role: 'system',
+									content: '={{$parameter["system_prompt"]}}',
+								},
+								{
+									role: 'user',
+									content: '={{$parameter["user_message"]}}',
+								},
+							],
+						},
+					},
+				},
+			},
 		],
 		default: 'send_chat_message',
 	},
@@ -74,7 +100,7 @@ const chatOperation: INodeProperties[] = [
 		displayOptions: {
 			show: {
 				resource: ['chat'],
-				operation: ['send_chat_message'],
+				operation: ['send_chat_message', 'send_chat_message_with_system_prompt'],
 			},
 		},
 		type: 'string',
@@ -88,7 +114,21 @@ const chatOperation: INodeProperties[] = [
 		displayOptions: {
 			show: {
 				resource: ['chat'],
-				operation: ['send_chat_message'],
+				operation: ['send_chat_message', 'send_chat_message_with_system_prompt'],
+			},
+		},
+		type: 'string',
+		required: true,
+	},
+	{
+		displayName: 'System Prompt',
+		name: 'system_prompt',
+		default: 'Always respond with NO!',
+		description: 'The system prompt to send in the chat',
+		displayOptions: {
+			show: {
+				resource: ['chat'],
+				operation: ['send_chat_message_with_system_prompt'],
 			},
 		},
 		type: 'string',

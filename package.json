@@ -1,6 +1,6 @@
 {
 	"name": "@deutschlandgpt/n8n-nodes-deutschlandgpt",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "DeutschlandGPT Node for n8n",
 	"keywords": [
 		"n8n-community-node-package",
@@ -16,12 +16,12 @@
 		"access": "public"
 	},
 	"author": {
-		"name": "Maximilian von Bomhard",
-		"email": "maximilian.vonbomhard@deutschlandgpt.de"
+		"name": "deutschlandgpt",
+		"email": "info@deutschlandgpt.de"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/deutschlandgpt/n8n-deutschlandgpt.git"
+		"url": "https://github.com/deutschlandgpt/deutschlandgpt-n8n.git"
 	},
 	"engines": {
 		"node": ">=20.15"

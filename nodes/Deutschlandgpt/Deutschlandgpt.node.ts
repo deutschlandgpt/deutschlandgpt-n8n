@@ -10,7 +10,7 @@ export class Deutschlandgpt implements INodeType {
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Works with DeutschlandGPT API',
+		description: 'Work with the DeutschlandGPT API',
 		defaults: {
 			name: 'DeutschlandGPT',
 		},

@@ -124,7 +124,7 @@ const chatOperation: INodeProperties[] = [
 		displayName: 'System Prompt',
 		name: 'system_prompt',
 		default: 'Always respond with NO!',
-		description: 'The system prompt to send in the chat',
+		description: 'The system prompt to send',
 		displayOptions: {
 			show: {
 				resource: ['chat'],

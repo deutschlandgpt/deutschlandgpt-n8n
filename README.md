@@ -2,7 +2,7 @@
 
 This is an n8n community node. It lets you use the DeutschlandGPT API in your n8n workflows.
 
-DeutschlandGPT is an AI Plattform where different LLMs can be used GDPR compliant without risks of losing data.
+DeutschlandGPT is an AI Platform where different LLMs can be used GDPR compliant without risks of losing data.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 

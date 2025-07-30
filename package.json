@@ -1,6 +1,6 @@
 {
-	"name": "n8n-nodes-deutschlandgpt",
-	"version": "1.0.0",
+	"name": "@deutschlandgpt/n8n-nodes-deutschlandgpt",
+	"version": "0.1.0",
 	"description": "DeutschlandGPT Node for n8n",
 	"keywords": [
 		"n8n-community-node-package",
@@ -11,7 +11,10 @@
 		"ki"
 	],
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://deutschlandgpt.de",
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": {
 		"name": "Maximilian von Bomhard",
 		"email": "maximilian.vonbomhard@deutschlandgpt.de"

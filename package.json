@@ -1,9 +1,14 @@
 {
 	"name": "n8n-nodes-deutschlandgpt",
 	"version": "0.1.0",
-	"description": "",
+	"description": "DeutschlandGPT Node for n8n",
 	"keywords": [
-		"n8n-community-node-package"
+		"n8n-community-node-package",
+		"deutschlandgpt",
+		"artificial intelligence",
+		"ai",
+		"künstliche Intelligenz",
+		"ki"
 	],
 	"license": "MIT",
 	"homepage": "",
@@ -13,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/deutschlandgpt/n8n-nodes-deutschlandgpt.git"
+		"url": "https://github.com/deutschlandgpt/n8n-deutschlandgpt.git"
 	},
 	"engines": {
 		"node": ">=20.15"
